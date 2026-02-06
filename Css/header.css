@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#header{
+   display:flex;
+   height: 800px;
+   background:url("/images/desktop/image-header.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   justify-content: space-between;
+   
+}
+.Nav-menu a{
+ text-decoration: none;
+ color: white;
+ display:flex;
+ margin-bottom: auto;
+}
+.Menu{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.bt{  
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  transition: background-color .3s, border-color .3s;
+}
+
+a:hover{
+  border-color: rgba(255,255,255, 0.5);
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.Logo{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.flecha{
+ position: absolute;
+ top:240px;
+ left:950PX;
+}
+
+.creatives{
+    position:absolute;
+    top:140px;
+    left:680PX;
+    color: white;
+    font-size: 30px;
+}
+
