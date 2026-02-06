@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.testimonials-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.titleTestimonials {
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: 'Fraunces', serif;
+
+  color: hsl(210, 4%, 67%);
+}
+
+.testimonials-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  align-items: stretch;
+}
+.imgProfile {
+  width: 100px; /* Ancho deseado */
+  height: 100px; /* Mismo valor que el ancho */
+  border-radius: 50%; /* Crea la forma circular */
+  object-fit: cover; /* Ajusta la imagen sin estirarla */
+}
+.user-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.testimonials-profile p {
+  margin-top: 2rem;
+  margin-bottom: 2rem; /* en vez de padding */
+  font-size: 1.125rem;
+  font-family: 'Barlow', serif;
+  color: hsl(213, 9%, 39%);
+  flex-grow: 1;
+}
+.testimonials-profile h2 {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Barlow', serif;
+  color: hsl(210, 4%, 67%);
+}
+.testimonials-profile h1 {
+  font-size: 1.125rem;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 27%, 19%);
+}
+
+@media (min-width: 1024px) {
+  .testimonials-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    align-items: stretch;
+  }
+  .testimonials-container {
+    padding: 4rem;
+  }
+  .testimonials-profile p {
+    margin-top: 4rem;
+    margin-bottom: 4rem; /* en vez de padding */
+    font-size: 1.125rem;
+    font-family: 'Barlow', serif;
+    color: hsl(213, 9%, 39%);
+    flex-grow: 1;
+  }
+
+  .titleTestimonials {
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+    padding: 3rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .titleTestimonials {
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+    padding: 2rem;
+  }
+}
