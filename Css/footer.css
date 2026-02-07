@@ -1,3 +1,40 @@
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(167, 34%, 41%);
+}
+.logo {
+  width: 100%;
+  fill: hsl(167, 40%, 24%);
+}
+
+.sections-container,
+.socialmedia-container,
+.logo-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.logo-container {
+  margin-top: 2rem;
+  width: 15%;
+}
+.sections-container a {
+  font-size: 1.125rem;
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+  font-family: 'Barlow';
+  background: none;
+}
+.sections-container a:hover {
+  color: hsl(0, 100%, 100%); /* hover solo afecta el texto */
+}
+.socialmedia-container {
+  gap: 1.5rem;
+}
+.sections-container {
+  gap: 3rem;
 }

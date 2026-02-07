@@ -54,6 +54,8 @@ Each section of the landing page was developed as an independent component insid
 /components  
 ├─ header.html  
 ├─ main.html  
+├─ testimonials.html  
+├─ gallery.html  
 └─ footer.html
 
 This approach allowed:
