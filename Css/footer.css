@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   background-color: hsl(167, 34%, 41%);
+  color: hsl(167, 40%, 24%);
 }
 .logo {
-  width: 100%;
-  fill: hsl(167, 40%, 24%);
+  width: 60%;
+  margin: auto;
 }
 
 .sections-container,
-.socialmedia-container,
 .logo-container {
   margin: auto;
   display: flex;
@@ -20,21 +20,49 @@
 
 .logo-container {
   margin-top: 2rem;
-  width: 15%;
 }
 .sections-container a {
   font-size: 1.125rem;
   color: hsl(167, 40%, 24%);
   text-decoration: none;
   font-family: 'Barlow';
-  background: none;
 }
 .sections-container a:hover {
-  color: hsl(0, 100%, 100%); /* hover solo afecta el texto */
+  color: hsl(0, 100%, 100%);
+  background: none;
 }
-.socialmedia-container {
-  gap: 1.5rem;
-}
+
 .sections-container {
   gap: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+  color: hsl(167, 40%, 24%);
+  margin-bottom: 3rem;
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.icon:hover {
+  color: white;
+}
+
+/* A partir de tablet en adelante */
+@media (min-width: 768px) {
+  .logo {
+    width: 8rem;
+  }
+}
+
+/* A partir de laptop en adelante */
+@media (min-width: 992px) {
+  .logo {
+    width: 10rem;
+  }
 }
