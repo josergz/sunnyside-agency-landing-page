@@ -28,7 +28,7 @@ Users should be able to:
 
 ---
 
-## 🚀 My Process
+## 🚀 Dev Process
 
 ### 🛠 Built with
 
