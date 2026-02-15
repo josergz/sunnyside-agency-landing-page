@@ -1,5 +1,112 @@
-.main h1 {
-  padding: 0%;
-  margin: 0%;
-  background: red;
+.main{
+  display:flex;
+  
+  flex-direction: column;
+
+
 }
+.sec1{
+  display: flex;
+  flex-direction:row;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 10%;
+
+}
+.text{
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  flex-direction: column;
+  padding: 12%;
+  gap: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.imga img{
+  flex: 1;
+  width: 130%;
+
+}
+h1{
+  font-size: 3.5rem;
+  margin: 0px;;
+}
+p{
+  font-size: 1.3rem;
+  margin: 0px;
+ 
+}
+h3{
+  justify-content: left;
+  font-size: 1.2rem;
+
+}
+
+/*Fila numero 2 imagen copa*/
+.sec2{
+  display: flex;
+  flex-direction:row;
+  margin: 0px;
+  padding: 0px;
+}
+.sec2 img{
+  width: 68%;
+}
+.ext{
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  flex-direction: column;
+  padding: 12%;
+  gap: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position:block;
+}
+
+.ult{
+
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+
+
+}
+
+.cere{
+  display: flex;
+  width: 50%;
+  background: url('/images/desktop/image-graphic-design.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10% 9% 0% 8%;
+  gap: 6%;
+  
+}
+
+.cere p{
+  color: black;
+  font-size: 2rem;
+}
+.nar{
+  display: flex;
+  background: url('/images/desktop/image-photography.jpg');
+  width: 50%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center; 
+  justify-content:center;
+  flex-direction: column;
+  padding: 10% 7% 0% 7%;
+  gap: 6%;
+}
+.nar p{
+  color: black;
+  font-size: 2rem;
+}
+
