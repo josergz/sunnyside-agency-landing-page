@@ -3,6 +3,7 @@
  grid-template-columns: repeat(2, 1fr);
 }
 
+/* Elementro de la figura 1 y su diseño */
 .element-1{
  font-family: 'fraunces', serif;
  display: flex;
@@ -24,22 +25,23 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* Elemento de la figura 2 y su diseño  */
 .element-2 img{
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
+/* Elemento de la figura 3 y su diseño  */
 .element-3  img{
- object-fit: cover;
  width: 100%;
- height: auto;
 }
 
+/* Elemento de la figura 4 y su diseño  */
 .element-4{
  font-family: 'fraunces', serif;
  display: flex;
  justify-content: center;
- /* align-items: center; */
  flex-direction: column;
  width: 100%;
  padding: 0px 11%;
@@ -55,6 +57,183 @@
   margin: 0px;
   color: rgba(0, 0, 0, 0.6);
 }
+
+/* Elemento de la figura 5 y su diseño  */
+/* Solo afecta 5 y 6 */
+.element-5,
+.element-6 {
+  position: relative;
+  color: rgba(0, 0, 0,0.7);
+  text-align: center;
+}
+
+.element-5 img,
+.element-6 img {
+  width: 100%;
+  display: block;
+}
+
+/* Título */
+.element-5 h1,
+.element-6 h1 {
+  position: absolute;
+  bottom: 27%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  font-size: 2.5rem;
+  margin: 0px;
+  font-family: 'fraunces', serif;
+}
+
+/* Texto */
+.element-5 p,
+.element-6 p {
+  padding: 0px 15%  ;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  font-size: 1.2rem;
+ font-family: 'fraunces', serif;
+}
+
+/* Imnicia media generalllllllllllllllllllllllllll */
+
+@media (max-width: 1800px) {
+.element-1{
+ font-family: 'fraunces', serif;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+ padding: 0px 13%;
+ gap: 5%;
+}
+
+.element-1 h1{
+  font-size: 3rem;
+  margin: 0px;
+}
+.element-1 p{
+  font-size: 1.23rem;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Elemento de la figura 2 y su diseño  */
+.element-2 img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Elemento de la figura 3 y su diseño  */
+.element-3  img{
+ width: 100%;
+}
+
+/* Elemento de la figura 4 y su diseño  */
+.element-4{
+ font-family: 'fraunces', serif;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+ padding: 0px 13%;
+ gap: 5%;
+}
+
+.element-4 h1{
+  font-size: 3rem;
+  margin: 0px;
+}
+.element-4 p{
+  font-size: 1.2rem;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Elemento de la figura 5 y su diseño  */
+/* Solo afecta 5 y 6 */
+.element-5,
+.element-6 {
+  position: relative;
+  color: rgba(0, 0, 0,0.7);
+  text-align: center;
+}
+
+.element-5 img,
+.element-6 img {
+  width: 100%;
+  display: block;
+}
+
+/* Título */
+.element-5 h1,
+.element-6 h1 {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  font-size: 2.5rem;
+  margin: 0px;
+  font-family: 'fraunces', serif;
+}
+
+/* Texto */
+.element-5 p,
+.element-6 p {
+  padding: 0px 15%  ;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  font-size: 1.2rem;
+ font-family: 'fraunces', serif;
+}
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+/* Elementro de la figura 1 y su diseño */
+.element-1{
+ font-family: 'fraunces', serif;
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+ flex-direction: column;
+ width: 100%;
+ height: 150%;
+ padding: 0px 13%;
+ gap: 5%;
+}
+
+.element-1 h1{
+  font-size: 4rem;
+  margin: 0px;
+}
+.element-1 p{
+  font-size: 1.8rem;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+}
+
+
+
 /* }
 .sec1{
   display: flex;
